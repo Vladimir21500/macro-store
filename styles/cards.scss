@@ -11,26 +11,26 @@
   background-color: $color-card;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 
+  &:nth-child(2) {
+    overflow: hidden;
+  }
   &:last-child {
     margin-right: 0;
   }
 
   &__label {
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 104px;
-    height: 104px;
+    top: -30px;
+    right: 30px;
+    width: 25px;
+    height: 147px;
+    transform: rotate(-45deg);
     background-color: $color-label-popular;
-    clip-path: polygon(30% 0, 100% 70%, 100% 100%, 0 0);
 
     &-popular {
       display: block;
-      position: relative;
-      left: 7px;
-      bottom: 7px;
       text-align: center;
-      transform: rotate(45deg);
+      transform: rotate(90deg);
       font-weight: 700;
       font-size: 14px;
       line-height: 104px;

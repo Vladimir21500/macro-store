@@ -75,21 +75,21 @@
   line-height: 18px;
   text-align: center;
 }
-.price-card__option-list {
+.price-card__options-list {
   margin: 0;
   padding: 0;
   margin-top: 40px;
   list-style-type: none;
 }
-.price-card__option-list-item {
+.price-card__options-list-item {
   font-weight: 300;
   font-size: 15px;
   line-height: 50px;
 }
-.price-card__option-list-item:nth-child(odd) {
+.price-card__options-list-item:nth-child(odd) {
   background-color: #2a3438;
 }
-.price-card__option-list-item-mark {
+.price-card__options-list-item-mark {
   margin-left: 22px;
   margin-right: 22px;
 }

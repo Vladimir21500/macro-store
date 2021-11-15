@@ -1,8 +1,8 @@
-.cards {
+.price-cards {
   display: flex;
 }
 
-.card {
+.price-card {
   position: relative;
   width: 380px;
   height: 770px;
@@ -11,10 +11,10 @@
   background-color: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
-.card:last-child {
+.price-card:last-child {
   margin-right: 0;
 }
-.card__label {
+.price-card__label {
   position: absolute;
   top: 0;
   right: 0;
@@ -23,7 +23,7 @@
   background-color: #dc3f45;
   clip-path: polygon(30% 0, 100% 70%, 100% 100%, 0 0);
 }
-.card__label-popular {
+.price-card__label-popular {
   display: block;
   position: relative;
   left: 7px;
@@ -34,38 +34,38 @@
   font-size: 14px;
   line-height: 104px;
 }
-.card__name {
+.price-card__title {
   margin: 0;
   font-weight: bold;
   font-size: 35px;
   line-height: 43px;
   text-align: center;
 }
-.card__kind {
+.price-card__kind {
   display: block;
   margin: auto;
   font-weight: 300;
   font-size: 20px;
-  line-height: 21px;
+  line-height: 24px;
   text-align: center;
 }
-.card__price {
+.price-card__price {
   margin-top: 33px;
   font-weight: bold;
   font-size: 55px;
   line-height: 105px;
   text-align: center;
 }
-.card__price_green {
+.price-card__price_green {
   background-color: #5bb189;
 }
-.card__price_blue {
+.price-card__price_blue {
   background-color: #3a6ba5;
 }
-.card__price_orange {
+.price-card__price_orange {
   background-color: #ec632a;
 }
-.card__descr {
+.price-card__description {
   margin: auto;
   margin-top: 40px;
   width: 327px;
@@ -75,25 +75,25 @@
   line-height: 18px;
   text-align: center;
 }
-.card__list {
+.price-card__option-list {
   margin: 0;
   padding: 0;
   margin-top: 40px;
   list-style-type: none;
 }
-.card__list-item {
+.price-card__option-list-item {
   font-weight: 300;
   font-size: 15px;
   line-height: 50px;
 }
-.card__list-item:nth-child(odd) {
+.price-card__option-list-item:nth-child(odd) {
   background-color: #2a3438;
 }
-.card__list-item-mark {
+.price-card__option-list-item-mark {
   margin-left: 22px;
   margin-right: 22px;
 }
-.card__button {
+.price-card__order-btn {
   display: block;
   width: 154px;
   height: 40px;
@@ -102,13 +102,13 @@
   border: none;
   border-radius: 20px;
 }
-.card__button_green {
+.price-card__order-btn_green {
   background-color: #5bb189;
 }
-.card__button_blue {
+.price-card__order-btn_blue {
   background-color: #3a6ba5;
 }
-.card__button_orange {
+.price-card__order-btn_orange {
   background-color: #ec632a;
 }
 
@@ -117,6 +117,7 @@
 }
 
 body {
+  margin: auto;
   width: 1440px;
   padding: 115px 132px;
   font-family: "Montserrat", sans-serif;

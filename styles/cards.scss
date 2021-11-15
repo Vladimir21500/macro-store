@@ -1,0 +1,119 @@
+.cards {
+  display: flex;
+}
+
+.card {
+  position: relative;
+  width: 380px;
+  height: 770px;
+  margin-right: 18px;
+  padding: 33px 0 40px 0;
+  background-color: $color-card;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 104px;
+    height: 104px;
+    background-color: $color-label-popular;
+    clip-path: polygon(30% 0, 100% 70%, 100% 100%, 0 0);
+
+    &-popular {
+      display: block;
+      position: relative;
+      left: 7px;
+      bottom: 7px;
+      text-align: center;
+      transform: rotate(45deg);
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 104px;
+    }
+  }
+
+  &__name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+  }
+  &__kind {
+    display: block;
+    margin: auto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+  }
+  &__price {
+    margin-top: 33px;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 105px;
+    text-align: center;
+    &_green {
+      background-color: $color-green;
+    }
+    &_blue {
+      background-color: $color-blue;
+    }
+    &_orange {
+      background-color: $color-orange;
+    }
+  }
+  &__descr {
+    margin: auto;
+    margin-top: 40px;
+    width: 327px;
+    height: 36px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+  }
+  &__list {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    list-style-type: none;
+
+    &-item {
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 50px;
+
+      &:nth-child(odd) {
+        background-color: $color-odd-item;
+      }
+      &-mark {
+        margin-left: 22px;
+        margin-right: 22px;
+      }
+    }
+  }
+  &__button {
+    display: block;
+    width: 154px;
+    height: 40px;
+    margin: auto;
+    margin-top: 39px;
+    border: none;
+    border-radius: 20px;
+    &_green {
+      background-color: $color-green;
+    }
+    &_blue {
+      background-color: $color-blue;
+    }
+    &_orange {
+      background-color: $color-orange;
+    }
+  }
+}

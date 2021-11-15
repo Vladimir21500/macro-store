@@ -1,0 +1,13 @@
+@import 'variables.scss';
+@import 'cards.scss';
+
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  padding: 115px 132px;
+  font-family: 'Montserrat', sans-serif;
+  color: $color-white;
+  background-color: $color-body;
+}

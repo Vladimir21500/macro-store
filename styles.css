@@ -1,3 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  width: 1440px;
+  padding: 65px 132px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  background-color: #141b1c;
+}
+
 .price-cards {
   display: flex;
 }
@@ -112,19 +125,6 @@
 }
 .price-card__order-btn_orange {
   background-color: #ec632a;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: auto;
-  width: 1440px;
-  padding: 65px 132px;
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
-  background-color: #141b1c;
 }
 
 /*# sourceMappingURL=styles.css.map */

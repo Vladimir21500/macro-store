@@ -14,4 +14,4 @@ Layout for only desktop version
 
 ### Author
 
-- Vladimir Datsiuk
+- Datsiuk Vladimir

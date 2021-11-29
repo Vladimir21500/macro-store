@@ -1,9 +1,9 @@
 @import 'variables.scss';
-@import 'cards.scss';
 
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: auto;
   width: 1440px;
@@ -12,3 +12,5 @@ body {
   color: $color-white;
   background-color: $color-body;
 }
+
+@import 'cards.scss';

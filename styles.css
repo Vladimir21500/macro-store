@@ -5,7 +5,6 @@
 body {
   margin: auto;
   width: 1440px;
-  padding: 65px 132px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   background-color: #141b1c;
@@ -13,6 +12,10 @@ body {
 
 .price-cards {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: auto;
 }
 
 .price-card {

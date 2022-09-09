@@ -1,4 +1,4 @@
-# Layout Project 2
+# Macro store
 
 ## [Site link](https://vladimir21500.github.io/layout-project2/)
 

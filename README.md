@@ -1,6 +1,6 @@
 # Macro store
 
-## [Site link](https://vladimir21500.github.io/layout-project2/)
+## [Site link](https://vladimir21500.github.io/macro-store/)
 
 Layout for only desktop version
 
